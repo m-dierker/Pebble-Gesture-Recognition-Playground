@@ -218,6 +218,7 @@ class GestureStroke:
                              (len(new_points), sample_points))
 
         self.points = new_points
+        print 'Normalized Points: %s' % self.points
         return True
 
     def center_stroke(self, offset_x, offset_y):
